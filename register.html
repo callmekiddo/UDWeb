@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="rsform.css">
+    <script src="rsform.js"></script>
+</head>
+
+<body>
+    <h1> Đăng ký tài khoản</h1>
+    <form>
+        <table width="500" cellspacing="0">
+            <tr>
+                <td id="c1">Tên đăng nhập: </td>
+                <td id="c2"><input id="b1" type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td id="c1">Họ và tên: </td>
+                <td id="c2"><input id="b1" type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td id="c1">Mật khẩu: </td>
+                <td id="c2"><input id="b1" type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td id="c1">Nhập lại mật khẩu: </td>
+                <td id="c2"><input id="b1" type="password" name="repassword"></td>
+            </tr>
+            <tr>
+                <td id="c1">Email: </td>
+                <td id="c2"><input id="b1" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td id="c1">Số điện thoại: </td>
+                <td id="c2"><input id="b1" type="tel" name="phonenumber"></td>
+            </tr>
+            <tr>
+                <td id="c1">Giới tính: </td>
+                <td id="c2">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label>Nam</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label>Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td id="c1">Năm sinh: </td>
+                <td id="c2"><input type="date" name="birth"></td>
+            </tr>
+            <tr>
+                <td id="c1">Địa chỉ: </td>
+                <td id="c2"><textarea style="width: 200px;" row="2"></textarea></td>
+            </tr>
+            <tr>
+                <td id="c1">Sở thích: </td>
+                <td id="c2">
+                    <input type="checkbox" name="hobby">
+                    <label>Chơi game</label>
+                    <input type="checkbox" name="hobby">
+                    <label>Mua sắm</label>
+                    <input type="checkbox" name="hobby">
+                    <label>Du lịch</label>
+                    <input type="checkbox" name="hobby">
+                    <label>Khác</label>
+                </td>
+            </tr>
+            <tr>
+                <td id="bt"></td>
+                <td id="bt">
+                    <input id="sm" type="submit" value="Đăng ký">
+                    <input id="rs" type="button" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

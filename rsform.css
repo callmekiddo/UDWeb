@@ -1,0 +1,39 @@
+textarea {
+    resize: none;
+}
+
+table {
+    background-color: cyan;
+    border: 2px solid brown;
+    font-weight: 550;
+    ;
+}
+
+#c1 {
+    background-color: rgb(255, 229, 204);
+    color: rgba(235, 28, 28, 0.811);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#b1{
+    min-width: 230px;
+}
+
+#c2{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#sm{
+    margin-left: 40px;
+}
+
+#rs{
+    margin-left: 20px;
+}
+
+#bt{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
